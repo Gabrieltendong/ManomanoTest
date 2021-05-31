@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-05T13:08:25.967Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.AbstractMethodError: org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:360)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\r\n\tat com.manomano.BaseClass.setDriver(BaseClass.java:13)\r\n\tat com.manomano.StepDefinitions.LoginStepDefs.setUp(LoginStepDefs.java:16)\r\n",
+              "duration": 89000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "",
+        "description": "",
+        "id": "login;",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.manomano.BaseClass.closeDriver(BaseClass.java:22)\r\n\tat com.manomano.StepDefinitions.LoginStepDefs.close(LoginStepDefs.java:21)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "aller sur la page de connexion",
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.GotoHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "cliquer sur continuer avec google",
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.clickContinueWithGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "utilisateur selectionne le compte",
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.userSelectAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User home page is display",
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.userHomePageIsDisplay()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/ressources/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-05T13:08:26.139Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.AbstractMethodError: org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:360)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\r\n\tat com.manomano.BaseClass.setDriver(BaseClass.java:13)\r\n\tat com.manomano.StepDefinitions.LoginStepDefs.setUp(LoginStepDefs.java:16)\r\n",
+              "duration": 16000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Login Test",
+        "description": "",
+        "id": "login;login-test",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.manomano.BaseClass.closeDriver(BaseClass.java:22)\r\n\tat com.manomano.StepDefinitions.LoginStepDefs.close(LoginStepDefs.java:21)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "aller sur la page de connexion",
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.GotoHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "cliquer sur continuer avec google",
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.clickContinueWithGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "utilisateur selectionne le compte",
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.userSelectAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User home page is display",
+            "match": {
+              "location": "com.manomano.StepDefinitions.LoginStepDefs.userHomePageIsDisplay()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/ressources/features/LoginTest.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.manomano.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.989 sec <<< FAILURE!
+runScenario(com.manomano.TestRunner)  Time elapsed: 0.385 sec  <<< FAILURE!
+java.lang.AbstractMethodError: org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:360)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.manomano.BaseClass.setDriver(BaseClass.java:13)
+	at com.manomano.StepDefinitions.LoginStepDefs.setUp(LoginStepDefs.java:16)
+
+runScenario(com.manomano.TestRunner)  Time elapsed: 0.066 sec  <<< FAILURE!
+java.lang.AbstractMethodError: org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:360)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.manomano.BaseClass.setDriver(BaseClass.java:13)
+	at com.manomano.StepDefinitions.LoginStepDefs.setUp(LoginStepDefs.java:16)
+

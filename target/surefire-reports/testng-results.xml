@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.manomano.TestRunner" duration-ms="1488" started-at="2021-05-05T14:08:24 WAT" finished-at="2021-05-05T14:08:26 WAT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.manomano.TestRunner@5b87ed94]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="1488" started-at="2021-05-05T14:08:24 WAT" finished-at="2021-05-05T14:08:26 WAT">
+      <class name="com.manomano.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.manomano.TestRunner@5b87ed94]" name="setUpClass" is-config="true" duration-ms="733" started-at="2021-05-05T14:08:24 WAT" finished-at="2021-05-05T14:08:25 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.manomano.TestRunner@5b87ed94]" name="runScenario" duration-ms="348" started-at="2021-05-05T14:08:25 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-05T14:08:26 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AbstractMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AbstractMethodError: org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:360)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+at com.manomano.BaseClass.setDriver(BaseClass.java:13)
+at com.manomano.StepDefinitions.LoginStepDefs.setUp(LoginStepDefs.java:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AbstractMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.manomano.TestRunner@5b87ed94]" name="runScenario" duration-ms="71" started-at="2021-05-05T14:08:26 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-05T14:08:26 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AbstractMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AbstractMethodError: org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:360)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+at com.manomano.BaseClass.setDriver(BaseClass.java:13)
+at com.manomano.StepDefinitions.LoginStepDefs.setUp(LoginStepDefs.java:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AbstractMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.manomano.TestRunner@5b87ed94]" name="tearDownClass" is-config="true" duration-ms="228" started-at="2021-05-05T14:08:26 WAT" finished-at="2021-05-05T14:08:26 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.manomano.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.manomano.TestRunner -->
+</testng-results>
