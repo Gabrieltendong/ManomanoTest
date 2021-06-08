@@ -8,24 +8,15 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">com.manomano.TestRunner</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">1 488</td><td></td><td></td></tr>
+<tr><th colspan="8">Manomano</th></tr>
+<tr><td><a href="#t0">Verification Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1 364 097</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">com.manomano.TestRunner</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.manomano.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1620220105755</td><td rowspan="2">348</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Manomano</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Verification Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="5">1623162442879</td><td rowspan="5">658972</td></tr><tr class="passedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">com.manomano.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;&quot;</td><td>&quot;Optional[login]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AbstractMethodError: org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:360)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
-	at com.manomano.BaseClass.setDriver(BaseClass.java:13)
-	at com.manomano.StepDefinitions.LoginStepDefs.setUp(LoginStepDefs.java:16)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.manomano.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login Test&quot;</td><td>&quot;Optional[login]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AbstractMethodError: org.openqa.selenium.remote.service.DriverService$Builder.createDriverService(Ljava/io/File;ILcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableMap;)Lorg/openqa/selenium/remote/service/DriverService;
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:360)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
-	at com.manomano.BaseClass.setDriver(BaseClass.java:13)
-	at com.manomano.StepDefinitions.LoginStepDefs.setUp(LoginStepDefs.java:16)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Verification Test</h2><h3 id="m0">TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The button &quot;Become a partner&quot; returns an error 404&quot;</td><td>&quot;Optional[access direct link]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The &quot;yes&quot; and &quot;no&quot; buttons do not work&quot;</td><td>&quot;Optional[access direct link]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;The FAQ contact form returns an error&quot;</td><td>&quot;Optional[access direct link]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Redirection to an error page when closing the login form from the FAQ page&quot;</td><td>&quot;Optional[access direct link]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Special characters accepted in the first and last name fields&quot;</td><td>&quot;Optional[user manager]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <suite name="Manomano" verbose="1" >
     <test name="Verification Test" >
         <classes>
-            <class name="com.manomano.TestRunner" />
+            <class name="TestRunner" />
         </classes>
     </test>
 </suite>
